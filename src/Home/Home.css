@@ -1,0 +1,96 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+body {
+  background-color: rgb(185, 203, 219);
+}
+
+.Home__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.Home__column1 {
+  background-color: white; 
+  padding: 4% 3%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home__column1 h2 {
+  text-shadow: 0.5px 1px 0.5px gray;
+}
+
+.Home__column1__p1 {
+  font-size: 25px;
+}
+
+.Home__column1 span {
+  font-weight: bold;
+}
+
+.Home__column1__p2 {
+  font-size: 35px;
+}
+
+.Home__column2 {
+  color: white;
+  background-color: rgb(54, 131, 205);
+  padding: 5% 3%;
+  border-radius: 0% 3% 3% 0% / 2% 5% 5% 0%;
+  width: 35%;
+}
+
+.Home__column2 h3 {
+  text-shadow: 1px 0.5px 0.1px gray;
+}
+
+.Home__column2 p {
+  font-size: 18px;
+}
+
+.Home__column2__Currency {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.Home__column2__Currency label {
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 1px 0.5px 0.1px rgba(128, 128, 128, 0.473);
+}
+
+.Home__column2__Currency select {
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 15px;
+  width: 72%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Home__btn {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+  .Home__container {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  .Home__column1,
+  .Home__column2 {
+    padding: 5% 3%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.Btn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Btn:hover {
+  background-color: green;
+  transform: scale(1.1);
+}
