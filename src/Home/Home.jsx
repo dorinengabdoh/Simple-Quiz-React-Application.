@@ -69,7 +69,7 @@ function Home() {
           <h3>E-CURRENCY WALLET APP</h3>
           <p>
             Deposite and transfert money <br />
-            <br /> from one currency to another
+            <br /> from one currency to anotheremail
           </p>
           <div>
             <div className="Home__column2__Currency">
