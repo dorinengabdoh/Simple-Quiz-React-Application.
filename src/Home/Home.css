@@ -9,20 +9,27 @@ body {
 .Home__container {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 3%;
 }
 
 .Home__column1 {
-  background-color: white; 
-  padding: 4% 3%;
+  background-color: white;
+  padding: 2% 3%;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  justify-items: center;
 }
 
 .Home__column1 h2 {
   text-shadow: 0.5px 1px 0.5px gray;
+}
+
+.hello {
+  font-style: italic;
+  font-size: 26px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Home__column1__p1 {
@@ -63,6 +70,12 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-shadow: 1px 0.5px 0.1px rgba(128, 128, 128, 0.473);
+}
+
+.hellos {
+  font-style: italic;
+  font-size: 26px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Home__column2__Currency select {

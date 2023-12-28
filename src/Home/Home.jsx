@@ -55,7 +55,7 @@ function Home() {
       <div className="Home__container">
         <div className="Home__column1">
           <div>
-            <h2>CURRENCY BALANCE</h2>
+            <h2 className='hello'>CURRENCY BALANCE</h2>
             <p className="Home__column1__p1">USD Balance: {currency1} USD</p>
             <p className="Home__column1__p1">EUR Balance: {currency2} EUR</p>
             <p className="Home__column1__p1">XAF Balance: {currency3} XAF</p>
@@ -66,7 +66,7 @@ function Home() {
           </div>
         </div>
         <div className="Home__column2">
-          <h3>E-CURRENCY WALLET APP</h3>
+          <h3 className='hellos'>E-CURRENCY WALLET APP</h3>
           <p>
             Deposite and transfert money <br />
             <br /> from one currency to anotheremail
