@@ -26,6 +26,12 @@ body {
   text-shadow: 0.5px 1px 0.5px gray;
 }
 
+.text {
+  font-style: italic;
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .hello {
   font-style: italic;
   font-size: 26px;
@@ -49,7 +55,7 @@ body {
   background-color: rgb(54, 131, 205);
   padding: 5% 3%;
   border-radius: 0% 3% 3% 0% / 2% 5% 5% 0%;
-  width: 35%;
+  width: 15%;
 }
 
 .Home__column2 h3 {
@@ -95,7 +101,7 @@ body {
   justify-content: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .Home__container {
     flex-direction: column-reverse;
     margin-top: 0;
@@ -104,6 +110,7 @@ body {
   .Home__column1,
   .Home__column2 {
     padding: 5% 3%;
-    width: 100%;
+    width: fit-content;
+    margin: 0 auto;
   }
 }

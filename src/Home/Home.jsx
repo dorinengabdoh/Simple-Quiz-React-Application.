@@ -66,9 +66,9 @@ function Home() {
           </div>
         </div>
         <div className="Home__column2">
-          <h3 className='hellos'>E-CURRENCY WALLET APP</h3>
-          <p>
-            Deposite and transfert money <br />
+          <h3 className='hellos'>E-CURRENCY WALLET</h3>
+          <p className='text'>
+            Deposite and Transfert money <br />
             <br /> from one currency to anotheremail
           </p>
           <div>
