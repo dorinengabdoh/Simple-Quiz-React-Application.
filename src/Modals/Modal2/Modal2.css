@@ -119,7 +119,7 @@
 .saveBtn:hover {
   box-shadow: 0 10px 20px -10px rgba(255, 62, 78, 0.6);
   transform: translateY(-5px);
-  background: green;
+  background: #a6dba6;
 }
 
 .cancelBtn {
